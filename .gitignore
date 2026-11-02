@@ -1,0 +1,40 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Env / secrets
+.env
+.env.local
+**/.env
+!**/.env.example
+
+# Logs / coverage
+logs/
+*.log
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Metro
+.metro-health-check*
+
+# Mobile (RN) — also covered under mobile/.gitignore
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/android/app/build/
+mobile/android/.gradle/
+mobile/vendor/bundle/
+*.xcuserstate
+**/DerivedData/
+**/.xcode.env.local
+
+# Backend
+backend/logs/
